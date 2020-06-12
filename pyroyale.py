@@ -78,7 +78,7 @@ class PyRoyale:
     # --- End of Tournament / Global Tournament info ---
     
 
-pyRoyale = PyRoyale('eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6ImVkYWZkZmNjLTcxZTYtNDdkYy1iMjRlLTkzNDY1YmZkNTE5NyIsImlhdCI6MTU5MTkwNzk2Miwic3ViIjoiZGV2ZWxvcGVyLzVkYmE4NzhjLWZiOWUtYTVlYy1lNGUyLWVkN2U3NjQ5NDcyOCIsInNjb3BlcyI6WyJyb3lhbGUiXSwibGltaXRzIjpbeyJ0aWVyIjoiZGV2ZWxvcGVyL3NpbHZlciIsInR5cGUiOiJ0aHJvdHRsaW5nIn0seyJjaWRycyI6WyIyMy4yMjYuOTMuOTAiXSwidHlwZSI6ImNsaWVudCJ9XX0.WJgBXiOWghKl08RRkYXc_c22IaaR34yGLjylH6FAJTihdrLASvSiA8CX14KlO9ZQqUhFQRVhaGwYW19t7TRTsQ')
+pyRoyale = PyRoyale('')
 pyRoyale.get_player_info('YYRVLLUV')
 pyRoyale.get_player_battelog('YYRVLLUV')
 print(pyRoyale.player_info)
