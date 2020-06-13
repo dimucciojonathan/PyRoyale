@@ -42,3 +42,9 @@ print(json_info)
 ```
 
 What you'll get is an unorganized block of JSON data. The goal of V2.0 is to easily select desired data keys and convert them to a pandas dataframe.
+
+
+## Changelog
+
+#### V 1.1
+Fixed class variables that had the same name.
