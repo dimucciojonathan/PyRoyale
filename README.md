@@ -47,8 +47,4 @@ What you'll get is an unorganized block of JSON data. The goal of V2.0 is to eas
 ## Changelog
 
 #### V 1.1
-<<<<<<< HEAD
 Fixed class variables that had the same name.
-=======
-Fixed class variables that had the same name.
->>>>>>> 45538ea6caef84f92259f88f85778aa2c130934c
