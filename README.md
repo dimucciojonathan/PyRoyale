@@ -7,8 +7,7 @@ This wrapper has a few use cases, and can easily be used for any or all listed!
 2. Convert Clash Royale JSON data to a more usable format (list or pandas dataframe)
 3. Custom searches for tournaments, clans, players
 
-PyRoyale is currently in V1.0, so only use case #1 has been implemented.
------------------
+###### PyRoyale is currently in V1.0, so only use case #1 has been implemented.
 
 ## Installation steps..
 
