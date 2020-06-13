@@ -42,4 +42,4 @@ json_info = pyRoyale.player_info
 print(json_info)
 ```
 
-
+What you'll get is an unorganized block of JSON data. The goal of V2.0 is to easily select desired data keys and convert them to a pandas dataframe.
