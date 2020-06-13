@@ -1,4 +1,4 @@
-# PyRoyale V1.0
+# PyRoyale V1.1
 
 PyRoyale is a light wrapper around the [official Clash Royale API](https://developer.clashroyale.com/#/)
 
@@ -7,8 +7,7 @@ This wrapper has a few use cases, and can easily be used for any or all listed!
 2. Convert Clash Royale JSON data to a more usable format (list or pandas dataframe)
 3. Custom searches for tournaments, clans, players
 
-PyRoyale is currently in V1.0, so only use case #1 has been implemented.
------------------
+###### PyRoyale is currently in V1.1, so only use case #1 has been implemented.
 
 ## Installation steps..
 
@@ -43,3 +42,9 @@ print(json_info)
 ```
 
 What you'll get is an unorganized block of JSON data. The goal of V2.0 is to easily select desired data keys and convert them to a pandas dataframe.
+
+
+## Changelog
+
+#### V 1.1
+Fixed class variables that had the same name.
