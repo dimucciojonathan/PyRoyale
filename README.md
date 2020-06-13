@@ -24,12 +24,22 @@ Next, download PyRoyale.py, and add the file to your directory. At the top of yo
 
 A quick implementation is to get information about your account. The JSON data includes many data points, such as level, wins, trophies, etc. The code is:
 
+
+
+```
 import pyroyale as rl
 
-  ``mykey = open('/Users/a1425/Documents/mykey.txt','r').read()
-  pyRoyale = rl.PyRoyale(mykey)
-  pyRoyale.get_player_info('YYRVLLUV')
-  json_info = pyRoyale.player_info
-  print(json_info)``
+mykey = open('/Users/a1425/Documents/mykey.txt','r').read()
+
+# Initialize Class
+pyRoyale = rl.PyRoyale(mykey)
+
+# Call desired method
+pyRoyale.get_player_info('YYRVLLUV')  
+
+# Retrieve class variable, which is in JSON format
+json_info = pyRoyale.player_info
+print(json_info)
+```
 
 
