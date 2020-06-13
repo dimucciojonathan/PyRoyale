@@ -26,10 +26,10 @@ A quick implementation is to get information about your account. The JSON data i
 
 import pyroyale as rl
 
-  mykey = open('/Users/a1425/Documents/mykey.txt','r').read()
+  ``mykey = open('/Users/a1425/Documents/mykey.txt','r').read()
   pyRoyale = rl.PyRoyale(mykey)
   pyRoyale.get_player_info('YYRVLLUV')
   json_info = pyRoyale.player_info
-  print(json_info)
+  print(json_info)``
 
 
