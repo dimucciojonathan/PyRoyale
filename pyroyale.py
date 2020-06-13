@@ -1,6 +1,9 @@
 import sys
 import requests
 
+# TODO
+# 
+
 class PyRoyale:
     def __init__(self, api_key):
         """ Add api key to class """
@@ -21,17 +24,17 @@ class PyRoyale:
     def get_clan_member_info(self, clan_tag):
         """ /clans/{clantag}/members endpoint """
         url = "https://api.clashroyale.com/v1/clans/%23" + clan_tag + '/members'
-        self.clan_info = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
+        self.clan_member_info = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
     
     def get_clan_warlog(self, clan_tag):
         """ /clans/{clantag}/warlog endpoint """
         url = "https://api.clashroyale.com/v1/clans/%23" + clan_tag + '/warlog'
-        self.clan_info = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
+        self.clan_warlog = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
 
     def get_clan_currentwar(self, clan_tag):
         """ /clans/{clantag}/currentwar endpoint """
         url = "https://api.clashroyale.com/v1/clans/%23" + clan_tag + '/currentwar'
-        self.clan_info = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
+        self.clan_currentwar = requests.request("GET", url, headers=self.headers).json() # Retrieve JSON data
     # --- End of Clan JSON info retrieval ---
 
     # --- Retrieve all player info ---
