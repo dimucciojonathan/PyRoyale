@@ -1,5 +1,9 @@
 import pyroyale as rl
 
+""" All examples will be tracked here """
+
+
+# Example 1:
 mykey = open('/Users/a1425/Documents/mykey.txt','r').read()
 
 # Initialize Class
